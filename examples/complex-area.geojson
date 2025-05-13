@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "description": "Famous park in Manhattan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.9819, 40.7682],
+            [-73.9819, 40.8003],
+            [-73.9493, 40.8003],
+            [-73.9493, 40.7682],
+            [-73.9819, 40.7682]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Battery Park",
+        "description": "Park at the southern tip of Manhattan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0175, 40.7016],
+            [-74.0175, 40.7046],
+            [-74.0133, 40.7046],
+            [-74.0133, 40.7016],
+            [-74.0175, 40.7016]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Times Square",
+        "description": "Famous intersection in Manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9855, 40.7580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway",
+        "description": "Famous avenue in Manhattan"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0175, 40.7046],
+          [-73.9923, 40.7352],
+          [-73.9855, 40.7580],
+          [-73.9821, 40.7680]
+        ]
+      }
+    }
+  ]
+}

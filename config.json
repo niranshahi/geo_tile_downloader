@@ -1,0 +1,53 @@
+{
+    "TileCacheFolder": "",
+    "TileMaps": [
+      {
+        "Name": "OSM_Map",
+        "Url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "Subdomains": "a,b,c",
+        "TimeSpan": "30.00:00:00",
+        "Format": "png"
+      },
+      
+      {
+        "Name": "geopackmap",
+        "Url": "http://localhost:1400/osmtile/{s}/{z}/{x}/{y}.png?theme=geopack&rebuild=false&ln=fa",
+
+        "Subdomains": "a,b,c",
+        "TimeSpan": "30.00:00:00",
+        "Format": "png"
+      },
+      {
+        "Name": "Google_Satellite",
+        "Url": "http://{s}.google.com/vt/lyrs=s&hl=fa&x={x}&y={y}&z={z}",
+        "Subdomains": "mt0,mt1,mt2,mt3",
+        "Format": "png"
+      },
+
+      {
+        "Name": "Google_Map",
+        "Url": "http://{s}.google.com/vt/lyrs=m&hl=fa&x={x}&y={y}&z={z}",
+        "Subdomains": "mt0,mt1,mt2,mt3",
+        "Format": "png"
+      },
+      {
+        "Name": "Google_Map2",
+        "Url": "http://{s}.google.com/vt/lyrs=r&hl=fa&x={x}&y={y}&z={z}",
+        "Subdomains": "mt0,mt1,mt2,mt3",
+        "Format": "png"
+      },
+      {
+        "Name": "Google_Hybrid",
+        "Url": "http://{s}.google.com/vt/lyrs=y&hl=fa&x={x}&y={y}&z={z}",
+        "Subdomains": "mt0,mt1,mt2,mt3",
+        "Format": "png"
+      },
+      {
+        "Name": "Google_Labels",
+        "Url": "http://{s}.google.com/vt/lyrs=h&hl=fa&x={x}&y={y}&z={z}",
+        "Subdomains": "mt0,mt1,mt2,mt3",
+        "Format": "png"
+      }
+      
+    ]
+  }
